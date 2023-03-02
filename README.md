@@ -1,1 +1,1 @@
-# 19-Progressive Web Application Budget Tracker PWA-Text Editor
+# 19-Progressive Web Application Budget Tracker PWA Text Editor
