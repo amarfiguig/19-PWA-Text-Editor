@@ -2,6 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+Progressive Web Applications (PWA) that are text editors are web applications that use modern web technologies to provide users with an app-like experience for text editing. These PWAs are designed to work across different devices and platforms, providing a consistent user experience.
+
 ## Description
 
 The application is a web text editor where the user can create notes or code snippets with or without an internet connection and where the user can reliably retrieve them for later use.  The integrated service worker and Cache API's ensure that the application will remain fully functional even without and active internet connection.  This application allows the user to access visited pages even if the application is offline.
