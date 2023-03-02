@@ -1,0 +1,43 @@
+{
+  "name": "pwa-app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "18.12.1",
+    "npm": "8.19.2"
+  },
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
+    "start": "npm run build && cd server && node server.js",
+    "server": "cd server nodemon server.js --ignore client",
+    "build": "cd client && npm run build",
+    "install": "cd server && npm i && cd ../client && npm i --dev",
+  
+    "client": "cd client && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+    
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+   
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^1.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amarfiguig/19-PWA-Text-Editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amarfiguig/19-PWA-Text-Editor/issues"
+  },
+  "homepage": "https://github.com/amarfiguig/19-PWA-Text-Editor#readme"
+}
